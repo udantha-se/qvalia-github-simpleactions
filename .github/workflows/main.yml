@@ -12,3 +12,5 @@ jobs:
      steps: 
       - name: Fail PR, No Jira
         uses: udantha-se/qvalia-github-simpleactions@main
+        with:
+          action: 'github-pr-title-need-jira'
