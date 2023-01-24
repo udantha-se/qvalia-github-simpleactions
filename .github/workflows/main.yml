@@ -11,4 +11,4 @@ jobs:
      runs-on: ubuntu-latest
      steps: 
       - name: Fail PR, No Jira
-        uses: actions/udantha-se/qvalia-github-simpleactions@main
+        uses: udantha-se/qvalia-github-simpleactions@main
