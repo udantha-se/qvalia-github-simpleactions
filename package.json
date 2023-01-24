@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/udantha-se/qvalia-github-simpleactions.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
