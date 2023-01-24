@@ -1,0 +1,14 @@
+# Qvalia workflow to validate if Jira issue is tagged to the pull request
+
+name: PR Should Have Qvalia Jira Issue
+
+on:
+ pull_request:
+    types: [opened, reopened, edited]
+
+jobs:
+  pr_title_need_jira_id:
+     runs-on: ubuntu-latest
+     steps: 
+      - name: Fail PR, No Jira
+        uses: actions/udantha-se/qvalia-github-simpleactions@main
