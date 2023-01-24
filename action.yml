@@ -1,0 +1,13 @@
+name: 'Qvalia Github Actions'
+description: 'Actions of Qvalia for Github'
+inputs:
+  action:  # name of the action to run
+    description: 'The action to be executed'
+    required: true
+    default: 'jira'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
