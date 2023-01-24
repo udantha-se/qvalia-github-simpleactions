@@ -11,7 +11,7 @@ try {
       console.log('Skipped because no action')
       break;
   }
-  console.log('event ran')
+  console.log(JSON.stringify(process.env))
 } catch (error) {
   process.exitCode = 1;
   process.stdout.write(error.getMessage() + os.EOL);
